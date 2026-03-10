@@ -2858,3 +2858,10 @@ TypeError: 'type' object is not subscriptable
 [2026-03-10T16:28:25.883+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:25.882+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2026-03-10T16:28:25.924+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:25.923+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
 [2026-03-10T16:28:25.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.602 seconds
+[2026-03-10T16:28:56.217+0000] {processor.py:157} INFO - Started process (PID=1266) to work on /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:56.218+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/integration_dag.py for tasks to queue
+[2026-03-10T16:28:56.238+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:56.226+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:56.798+0000] {processor.py:839} INFO - DAG(s) dict_keys(['integration_currency_dag']) retrieved from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:56.881+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:56.880+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-03-10T16:28:56.929+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:56.929+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
+[2026-03-10T16:28:56.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.749 seconds

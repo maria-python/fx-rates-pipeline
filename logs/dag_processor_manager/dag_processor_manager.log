@@ -2739,3 +2739,12 @@ File Path                             PID    Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/integration_dag.py                           1           0  0.64s           2026-03-10T16:28:25
 /opt/airflow/dags/maintenance_dag.py                           1           0  0.60s           2026-03-10T16:28:25
 ================================================================================
+[2026-03-10T16:29:09.035+0000] {manager.py:888} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/integration_dag.py                           1           0  0.78s           2026-03-10T16:28:56
+/opt/airflow/dags/maintenance_dag.py                           1           0  0.76s           2026-03-10T16:28:56
+================================================================================
