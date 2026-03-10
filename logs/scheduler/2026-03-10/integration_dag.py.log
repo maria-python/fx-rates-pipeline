@@ -2830,3 +2830,31 @@ TypeError: 'type' object is not subscriptable
 [2026-03-10T16:26:21.900+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:26:21.897+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2026-03-10T16:26:21.933+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:26:21.933+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
 [2026-03-10T16:26:21.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.584 seconds
+[2026-03-10T16:26:52.220+0000] {processor.py:157} INFO - Started process (PID=1218) to work on /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:26:52.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/integration_dag.py for tasks to queue
+[2026-03-10T16:26:52.231+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:26:52.230+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:26:52.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['integration_currency_dag']) retrieved from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:26:52.789+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:26:52.788+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-03-10T16:26:52.838+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:26:52.837+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
+[2026-03-10T16:26:52.874+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.663 seconds
+[2026-03-10T16:27:23.228+0000] {processor.py:157} INFO - Started process (PID=1230) to work on /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:23.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/integration_dag.py for tasks to queue
+[2026-03-10T16:27:23.232+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:23.232+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:23.911+0000] {processor.py:839} INFO - DAG(s) dict_keys(['integration_currency_dag']) retrieved from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:24.001+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:24.001+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-03-10T16:27:24.030+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:24.030+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
+[2026-03-10T16:27:24.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.832 seconds
+[2026-03-10T16:27:54.195+0000] {processor.py:157} INFO - Started process (PID=1242) to work on /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:54.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/integration_dag.py for tasks to queue
+[2026-03-10T16:27:54.200+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:54.199+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:54.746+0000] {processor.py:839} INFO - DAG(s) dict_keys(['integration_currency_dag']) retrieved from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:27:54.793+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:54.792+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-03-10T16:27:54.821+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:27:54.821+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
+[2026-03-10T16:27:54.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.659 seconds
+[2026-03-10T16:28:25.357+0000] {processor.py:157} INFO - Started process (PID=1254) to work on /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:25.359+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/integration_dag.py for tasks to queue
+[2026-03-10T16:28:25.364+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:25.363+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:25.835+0000] {processor.py:839} INFO - DAG(s) dict_keys(['integration_currency_dag']) retrieved from /opt/airflow/dags/integration_dag.py
+[2026-03-10T16:28:25.883+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:25.882+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2026-03-10T16:28:25.924+0000] {logging_mixin.py:151} INFO - [2026-03-10T16:28:25.923+0000] {dag.py:3677} INFO - Setting next_dagrun for integration_currency_dag to 2026-03-10T00:00:00+00:00, run_after=2026-03-11T00:00:00+00:00
+[2026-03-10T16:28:25.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/integration_dag.py took 0.602 seconds
